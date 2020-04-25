@@ -4,11 +4,12 @@ go get github.com/Eleron8/ingrid
 
 This small service can show a list of routes between source and each destination
 
-for taking routes use in route directory `go run main.go` 
+for run service use in route directory `go run main.go` 
 
-Go to http://localhost:8080
+Go to http://localhost:8080 
+Here is just small message about this service
 
-for list of routes go http://localhost:8080/routes with params
+for taking list of routes go http://localhost:8080/routes with params `src` and `dst`
 
 for example:
 
