@@ -8,6 +8,7 @@ import (
 	"sort"
 )
 
+//Response - form for take response from project-osrm
 type Response struct {
 	Routes    []Route    `json:"routes"`
 	Waypoints []Waypoint `json:"waypoints"`
@@ -43,6 +44,7 @@ type RoutInfo struct {
 	Distance    float32 `json:"distance"`
 }
 
+//List - response from this service
 type List struct {
 	Source string     `json:"source"`
 	Routes []RoutInfo `json:"routes"`
