@@ -29,4 +29,9 @@ main page: https://route-service-275310.ew.r.appspot.com
 
 routes: https://route-service-275310.ew.r.appspot.com/routes?src=13.388860,52.517037&dst=13.397634,52.529407&dst=13.428555,52.523219
 
+# DOCKER 
 
+to build Docker image use command `docker build -t route-serv .`
+
+Then run command `docker run -p 8080:8080 route-serv` 
+Service will be running on localhost:8080 
